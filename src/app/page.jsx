@@ -38,7 +38,7 @@ const Accueil = () => {
         <div className={styles.container}>
           <div className={styles.home}>
             <Image
-              src="/home1.jpeg"
+              src="/home.jpeg"
               layout="fill"
               className="imgHome"
               alt="picture home"
