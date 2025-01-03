@@ -1,0 +1,11 @@
+.lacarte {
+  height: 100%;
+}
+
+.title {
+  color: var(--color1);
+  font-size: 2rem;
+  font-family: var(--font1);
+  font-weight: 500;
+  padding: 60px 0 30px;
+}

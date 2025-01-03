@@ -1,0 +1,74 @@
+.section1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background: var(--white);
+}
+
+.introText {
+  margin: 15px;
+  padding: 30px 15px;
+  border: 1px dashed var(--color1);
+}
+
+.titreh2 {
+  color: var(--color1);
+  font-family: var(--font1);
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.texth3 {
+  margin-top: -12px;
+  font-family: var(--font2);
+}
+
+.h4 {
+  font-family: var(--font2);
+  font-weight: 100;
+}
+
+.h5 {
+  color: var(--grey);
+  font-size: 0.7em;
+}
+
+.imgIconPlate {
+  margin: 26px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.imgAvatar {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  width: 70px;
+  height: 70px;
+  border-radius: 150px;
+  margin: 0 auto;
+}
+
+.introPic {
+  background: url(/store-01.jpg) center/cover;
+}
+
+@media screen and (max-width: 680px) {
+  .section1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+/* @media screen and (max-width: 500px) {
+  .section1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+} */
+
+.p {
+  font-family: var(--font5);
+  margin-bottom: 5px;
+}
