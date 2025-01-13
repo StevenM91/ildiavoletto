@@ -23,6 +23,7 @@
   position: relative;
   font-size: 4.5rem;
   top: 6.4%;
+  left: -800px;
 }
 
 .subtitle {
@@ -32,6 +33,7 @@
   font-family: var(--font1);
   font-size: 3.8rem;
   top: 6.4%;
+  left: -800px;
 }
 
 .text {
@@ -44,6 +46,7 @@
   .title,
   .subtitle {
     font-size: 3rem;
+    left: -800px;
   }
 
   .imgHome {
@@ -56,6 +59,7 @@
   .subtitle {
     font-size: 2rem;
     top: 20%;
+    left: -800px;
   }
 
   .imgHome {
@@ -67,6 +71,7 @@
   .title,
   .subtitle {
     font-size: 1.5rem;
+    left: -800px;
   }
 
   .imgHome {

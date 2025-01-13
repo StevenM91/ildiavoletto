@@ -1,3 +1,4 @@
+import * as motion from "motion/react-client";
 import Section1 from "@/components/section1/Section1";
 import styles from "./home.module.css";
 import Contact from "../components/contact/Contact";
@@ -28,10 +29,10 @@ const Accueil = () => {
           property="og:description"
           content="Découvrez notre menu varié avec des options pour tous les goûts, dans un cadre chaleureux et convivial."
         />
-        {/* <meta property="og:image" content="/images/restaurant-preview.jpg" />
-    <meta property="og:url" content="https://www.il-diavolletto.fr" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <link rel="canonical" href="https://www.il-diavolletto.fr" /> */}
+        <meta property="og:image" content="/images/restaurant-preview.jpg" />
+        <meta property="og:url" content="https://www.il-diavolletto.fr" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="canonical" href="https://www.il-diavolletto.fr" />
       </Head>
 
       <div>
@@ -44,8 +45,20 @@ const Accueil = () => {
               alt="picture home"
             />
             <div className={styles.overlay}>
-              <h1 className={styles.title}>Il Diavolletto</h1>
-              <h3 className={styles.subtitle}>Diaboliquement Bon</h3>
+              <motion.h1
+                animate={{ x: 800 }}
+                transition={{ ease: "easeOut", duration: 3 }}
+                className={styles.title}
+              >
+                Il Diavolletto
+              </motion.h1>
+              <motion.h3
+                animate={{ x: 800 }}
+                transition={{ ease: "easeOut", duration: 3 }}
+                className={styles.subtitle}
+              >
+                Diaboliquement Bon
+              </motion.h3>
             </div>
           </div>
         </div>

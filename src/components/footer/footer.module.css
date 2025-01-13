@@ -6,7 +6,7 @@
   max-width: 1000px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
 }
 
 @media screen and (max-width: 750px) {
@@ -41,4 +41,8 @@
 .p {
   font-size: 0.85rem;
   color: var(--white);
+}
+
+.rightPart {
+  display: flex;
 }

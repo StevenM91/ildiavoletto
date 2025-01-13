@@ -12,11 +12,7 @@ const Footer = () => {
         <br />
         <p className={styles.p}>contact@diavoletto.fr</p>
       </div>
-      <div className={styles.rightPart}>
-        <div className={styles.followUs}>
-          <h3 className={styles.h3follow}>FOLLOW US :</h3>
-        </div>
-      </div>
+      <div className={styles.rightPart}></div>
     </div>
   );
 };
