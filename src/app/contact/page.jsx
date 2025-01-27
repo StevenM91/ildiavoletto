@@ -1,10 +1,12 @@
+// "use client";
+
 import Image from "next/image";
 import styles from "./contact.module.css";
 
 export const metadata = {
-  title: "Il Diavolletto Menu",
+  title: "Il Diavoletto Menu",
   description:
-    "Contactez Il Diavolletto, votre restaurant italien à Ézy-sur-Eure, ouvert du mardi au dimanche. Retrouvez-nous au  45 rue Isambard 27530 Ézy-sur-Eure ou appelez-nous au 07 49 76 69 15. Réservez votre table dès aujourd'hui !",
+    "Contactez Il Diavoletto, votre restaurant italien à Ézy-sur-Eure, ouvert du mardi au dimanche. Retrouvez-nous au  45 rue Isambard 27530 Ézy-sur-Eure ou appelez-nous au 07 49 76 69 15. Réservez votre table dès aujourd'hui !",
 };
 
 const Contact = () => {

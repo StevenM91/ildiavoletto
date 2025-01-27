@@ -18,7 +18,7 @@ const geistMono = localFont({
 export const metadata = {
   title: "Il Diavolletto",
   description:
-    "Il Diavolletto, votre restaurant italien à Ézy-sur-Eure en Eure-et-Loir, vous invite à savourer des pâtes fraîches maison et des spécialités italiennes authentiques. Profitez d'une expérience gourmande unique dans un cadre chaleureux. Réservez dès maintenant !",
+    "Il Diavoletto, votre restaurant italien à Ézy-sur-Eure en Eure-et-Loir, vous invite à savourer des pâtes fraîches maison et des spécialités italiennes authentiques. Profitez d'une expérience gourmande unique dans un cadre chaleureux. Réservez dès maintenant !",
 };
 
 export default function RootLayout({ children }) {

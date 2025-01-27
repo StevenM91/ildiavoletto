@@ -1,11 +1,11 @@
 import { BrowserRouter, NavLink, Route, Routes } from "react-router-dom";
 import styles from "./linksmenu.module.css";
-import Entree from "../../app/plats/Entree";
-import Pates from "../../app/plats/Pates";
-import Secondi from "../../app/plats/Secondi";
-import Dessert from "../../app/plats/Dessert";
-import Boissons from "../../app/plats/Boisson";
-import Formule from "../../app/plats/Formule";
+import Entree from "../../plats/Entree";
+import Pates from "../../plats/Pates";
+import Secondi from "../../plats/Secondi";
+import Dessert from "../../plats/Dessert";
+import Boissons from "../../plats/Boisson";
+import Formule from "../../plats/Formule";
 
 const LinksMenu = () => {
   return (
@@ -15,7 +15,7 @@ const LinksMenu = () => {
           <ul className={styles.ul}>
             <li className={styles.li}>
               <NavLink
-                to="/"
+                to="/entree"
                 style={({ isActive }) => ({
                   color: isActive ? "rgb(166, 114, 69)" : "white",
                 })}
@@ -76,7 +76,7 @@ const LinksMenu = () => {
           </ul>
         </div>
         <Routes>
-          <Route path="/" element={<Entree />} />
+          <Route path="/entree" element={<Entree />} />
           <Route path="/pates" element={<Pates />} />
           <Route path="/secondi" element={<Secondi />} />
           <Route path="/dessert" element={<Dessert />} />
