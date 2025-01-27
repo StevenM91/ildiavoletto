@@ -1,19 +1,19 @@
-import localFont from "next/font/local";
+// import localFont from "next/font";
 import "./global.css";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
 import Copyright from "@/components/copyright/Copyright";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+// const geistSans = localFont({
+//   src: "./fonts/GeistVF.woff",
+//   variable: "--font-geist-sans",
+//   weight: "100 900",
+// });
+// const geistMono = localFont({
+//   src: "./fonts/GeistMonoVF.woff",
+//   variable: "--font-geist-mono",
+//   weight: "100 900",
+// });
 
 export const metadata = {
   title: "Il Diavolletto",
@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
   return (
     <>
       <html lang="fr">
-        <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <body>
           <main>
             <Navbar />
             {children}

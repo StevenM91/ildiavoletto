@@ -12,7 +12,6 @@ const LaCarte = () => {
   return (
     <div className={styles.container}>
       <Menu />
-      <Contact />
     </div>
   );
 };

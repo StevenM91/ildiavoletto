@@ -25,16 +25,14 @@ const Contact = () => {
                 height={30}
               />
             </div>
-            <h5 className={styles.h5Date}>Mardi</h5>
-            <p className={styles.p}>18:30 - 22:30</p>
-            <h5 className={styles.h5Date}>Mercredi</h5>
+            <h5 className={styles.h5Date}>Mardi - vendredi</h5>
             <p className={styles.p}>11:30 - 14:00</p>
-            <p className={styles.p}>18:30 - 22:30</p>
-            <h5 className={styles.h5Date}>Jeudi - Samedi</h5>
-            <p className={styles.p}>11:30 - 14:30</p>
+            <p className={styles.p}>18:30 - 22:00</p>
+            <h5 className={styles.h5Date}>Samedi</h5>
+            <p className={styles.p}>11:30 - 14:00</p>
             <p className={styles.p}>18:30 : 22:30</p>
             <h5 className={styles.h5Date}>Dimanche</h5>
-            <p className={styles.p}>10:00 - 15:30</p>
+            <p className={styles.p}>10:00 - 14:30</p>
             <h5 className={styles.h5Date}>+33 (0) 7 49 76 69 15</h5>
             <h5 className={styles.h5Date}>contact@diavoletto.fr</h5>
           </div>
