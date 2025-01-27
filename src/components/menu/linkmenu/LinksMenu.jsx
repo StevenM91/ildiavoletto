@@ -19,6 +19,7 @@ const LinksMenu = () => {
                 style={({ isActive }) => ({
                   color: isActive ? "rgb(166, 114, 69)" : "white",
                 })}
+                className={styles.a}
               >
                 Entrée
               </NavLink>
@@ -29,6 +30,7 @@ const LinksMenu = () => {
                 style={({ isActive }) => ({
                   color: isActive ? "rgb(166, 114, 69)" : "white",
                 })}
+                className={styles.a}
               >
                 Pasta
               </NavLink>
@@ -39,6 +41,7 @@ const LinksMenu = () => {
                 style={({ isActive }) => ({
                   color: isActive ? "rgb(166, 114, 69)" : "white",
                 })}
+                className={styles.a}
               >
                 Secondi
               </NavLink>
@@ -49,6 +52,7 @@ const LinksMenu = () => {
                 style={({ isActive }) => ({
                   color: isActive ? "rgb(166, 114, 69)" : "white",
                 })}
+                className={styles.a}
               >
                 Desserts
               </NavLink>
@@ -59,6 +63,7 @@ const LinksMenu = () => {
                 style={({ isActive }) => ({
                   color: isActive ? "rgb(166, 114, 69)" : "white",
                 })}
+                className={styles.a}
               >
                 Boissons
               </NavLink>
@@ -69,6 +74,7 @@ const LinksMenu = () => {
                 style={({ isActive }) => ({
                   color: isActive ? "rgb(166, 114, 69)" : "white",
                 })}
+                className={styles.a}
               >
                 Formule
               </NavLink>

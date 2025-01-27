@@ -30,6 +30,10 @@
   font-family: "Brixton";
   src: url(./fonts/Brixton-Book.ttf);
 }
+@font-face {
+  font-family: "Helgoland";
+  src: url(./fonts/Helgoland.otf);
+}
 
 :root {
   --font1: "Allura", cursive;
@@ -39,6 +43,7 @@
   --font5: "Aktkinson", sans-serif;
   --font6: "Lavonia", cursive;
   --font7: "Brixton", sans-serif;
+  --title: "Helgoland", sans-serif;
   --white: #eee;
   --black: #21201e;
   --grey: rgb(19, 13, 13);

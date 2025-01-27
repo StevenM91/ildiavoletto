@@ -2,20 +2,31 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 50%;
+  /* width: 50%; */
   margin: 30px auto;
-  min-width: 500px;
-}
-
-@media (max-width: 680px) {
-  .ul {
-    min-width: 200px;
-    width: 90%;
-    font-size: 0.75rem;
-  }
+  min-width: 6cqb;
 }
 
 .li {
   border-bottom: 1px solid var(--grey);
   padding-bottom: 8px;
+}
+
+@media (max-width: 680px) {
+  .ul {
+    width: 90%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .li {
+    margin-right: 5px;
+    font-size: 0.75rem;
+  }
+
+  .a {
+    font-size: 0.75rem;
+  }
 }

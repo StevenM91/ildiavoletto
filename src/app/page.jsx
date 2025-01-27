@@ -50,9 +50,9 @@ const Accueil = () => {
         <div className={styles.container}>
           <div className={styles.home}>
             <Image
-              src="/fond-3.jpeg"
+              src="/font-4-2.jpeg"
               fill={true}
-              className="imgHome"
+              className={styles.imgHome}
               alt="picture home"
             />
             <div className={styles.overlay}>
