@@ -50,7 +50,7 @@ const Accueil = () => {
         <div className={styles.container}>
           <div className={styles.home}>
             <Image
-              src="/home.jpeg"
+              src="/fond-3.jpeg"
               fill={true}
               className="imgHome"
               alt="picture home"
