@@ -15,7 +15,7 @@ const LinksMenu = () => {
           <ul className={styles.ul}>
             <li className={styles.li}>
               <NavLink
-                to="/lacarte/entree"
+                to="/"
                 style={({ isActive }) => ({
                   color: isActive ? "rgb(166, 114, 69)" : "white",
                 })}
@@ -25,7 +25,7 @@ const LinksMenu = () => {
             </li>
             <li className={styles.li}>
               <NavLink
-                to="/lacarte/pates"
+                to="/menu/pates"
                 style={({ isActive }) => ({
                   color: isActive ? "rgb(166, 114, 69)" : "white",
                 })}
@@ -35,7 +35,7 @@ const LinksMenu = () => {
             </li>
             <li className={styles.li}>
               <NavLink
-                to="/lacarte/secondi"
+                to="/menu/secondi"
                 style={({ isActive }) => ({
                   color: isActive ? "rgb(166, 114, 69)" : "white",
                 })}
@@ -45,7 +45,7 @@ const LinksMenu = () => {
             </li>
             <li className={styles.li}>
               <NavLink
-                to="/lacarte/dessert"
+                to="/menu/dessert"
                 style={({ isActive }) => ({
                   color: isActive ? "rgb(166, 114, 69)" : "white",
                 })}
@@ -55,7 +55,7 @@ const LinksMenu = () => {
             </li>
             <li className={styles.li}>
               <NavLink
-                to="/lacarte/boissons"
+                to="/menu/boissons"
                 style={({ isActive }) => ({
                   color: isActive ? "rgb(166, 114, 69)" : "white",
                 })}
@@ -65,7 +65,7 @@ const LinksMenu = () => {
             </li>
             <li className={styles.li}>
               <NavLink
-                to="/lacarte/formules"
+                to="/menu/formules"
                 style={({ isActive }) => ({
                   color: isActive ? "rgb(166, 114, 69)" : "white",
                 })}
@@ -76,12 +76,12 @@ const LinksMenu = () => {
           </ul>
         </div>
         <Routes>
-          <Route path="/lacarte/entree" element={<Entree />} />
-          <Route path="/lacarte/pates" element={<Pates />} />
-          <Route path="/lacarte/secondi" element={<Secondi />} />
-          <Route path="/lacarte/dessert" element={<Dessert />} />
-          <Route path="/lacarte/boissons" element={<Boissons />} />
-          <Route path="/lacarte/formules" element={<Formule />} />
+          <Route path="/" element={<Entree />} />
+          <Route path="/menu/pates" element={<Pates />} />
+          <Route path="/menu/secondi" element={<Secondi />} />
+          <Route path="/menu/dessert" element={<Dessert />} />
+          <Route path="/menu/boissons" element={<Boissons />} />
+          <Route path="/menu/formules" element={<Formule />} />
         </Routes>
       </BrowserRouter>
     </div>
