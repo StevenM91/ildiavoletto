@@ -8,7 +8,7 @@ const Menu = () => {
   return (
     <div className={styles.lacarte}>
       <h2 className={styles.title}>La Carte</h2>
-      <img src="/ic-plate.png" width={30} height={30} />
+      <img src="/ic-plate.png" />
 
       <LinksMenu />
     </div>

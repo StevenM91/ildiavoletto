@@ -17,7 +17,7 @@ const Contact = () => {
           <div className={styles.hoursContent}>
             <h3 className={styles.h3Hours}>Horaires</h3>
             <div className={styles.iconPlate}>
-              <Image
+              <img
                 src="/ic-plate.png"
                 alt="icon plate"
                 className={styles.iconPlate}
