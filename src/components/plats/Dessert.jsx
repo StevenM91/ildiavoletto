@@ -4,7 +4,11 @@ import styles from "./globalPlat.module.css";
 const Dessert = () => {
   return (
     <div className={styles.meals}>
-      <img src="/menuDessert.jpg" className={styles.img} />
+      <img
+        src="/menuDessert.jpg"
+        className={styles.img}
+        alt="Menu Dessert Diavoletto"
+      />
     </div>
   );
 };

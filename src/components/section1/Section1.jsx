@@ -6,11 +6,11 @@ const Section1 = () => {
     <div>
       <section className={styles.section1}>
         <div className={styles.introText}>
-          <h2 className={styles.titreh2}>Discover</h2>
-          <h3 className={styles.texth3}>OUR STORE</h3>
+          <h2 className={styles.titreh2}>Découvrez</h2>
+          <h3 className={styles.texth3}>IL DIAVOLETTO</h3>
           <div className={styles.imgIconPlate}>
-            <Image
-              src="/ic-plate.png"
+            <img
+              src="/images/ic-plate.png"
               alt="icon-plate"
               className={styles.imgIconPlate}
               width={30}
@@ -30,15 +30,14 @@ const Section1 = () => {
             diaboliquement bon !
           </p>
           <div className={styles.imgAvatar}>
-            <Image
-              src="/avatar-01.jpg"
+            <img
+              src="/images/diable.png"
               alt="chef resto picture"
-              fill
               className={styles.imgAvatar}
             />
           </div>
-          <h4 className={styles.h4}>Guy</h4>
-          <h5 className={styles.h5}>CHEF COOK</h5>
+          <h4 className={styles.h4}>Vente à Emporter</h4>
+          {/* <h5 className={styles.h5}>CHEF COOK</h5> */}
         </div>
         <div className={styles.introPic}></div>
       </section>

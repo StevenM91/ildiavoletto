@@ -26,7 +26,7 @@ const LinksMenu = () => {
             </li>
             <li className={styles.li}>
               <NavLink
-                to="/menu/pates"
+                to="/lacarte/pates"
                 style={({ isActive }) => ({
                   color: isActive ? "rgb(166, 114, 69)" : "white",
                 })}
@@ -37,7 +37,7 @@ const LinksMenu = () => {
             </li>
             <li className={styles.li}>
               <NavLink
-                to="/menu/secondi"
+                to="/lacarte/secondi"
                 style={({ isActive }) => ({
                   color: isActive ? "rgb(166, 114, 69)" : "white",
                 })}
@@ -48,7 +48,7 @@ const LinksMenu = () => {
             </li>
             <li className={styles.li}>
               <NavLink
-                to="/menu/dessert"
+                to="/lacarte/dessert"
                 style={({ isActive }) => ({
                   color: isActive ? "rgb(166, 114, 69)" : "white",
                 })}
@@ -59,7 +59,7 @@ const LinksMenu = () => {
             </li>
             <li className={styles.li}>
               <NavLink
-                to="/menu/boissons"
+                to="/lacarte/boissons"
                 style={({ isActive }) => ({
                   color: isActive ? "rgb(166, 114, 69)" : "white",
                 })}
@@ -68,9 +68,9 @@ const LinksMenu = () => {
                 Boissons
               </NavLink>
             </li>
-            <li className={styles.li}>
+            {/* <li className={styles.li}>
               <NavLink
-                to="/menu/formules"
+                to="/lacarte/formules"
                 style={({ isActive }) => ({
                   color: isActive ? "rgb(166, 114, 69)" : "white",
                 })}
@@ -78,16 +78,16 @@ const LinksMenu = () => {
               >
                 Formule
               </NavLink>
-            </li>
+            </li> */}
           </ul>
         </div>
         <Routes>
           <Route path="/" element={<Entree />} />
-          <Route path="/menu/pates" element={<Pates />} />
-          <Route path="/menu/secondi" element={<Secondi />} />
-          <Route path="/menu/dessert" element={<Dessert />} />
-          <Route path="/menu/boissons" element={<Boissons />} />
-          <Route path="/menu/formules" element={<Formule />} />
+          <Route path="/lacarte/pates" element={<Pates />} />
+          <Route path="/lacarte/secondi" element={<Secondi />} />
+          <Route path="/lacarte/dessert" element={<Dessert />} />
+          <Route path="/lacarte/boissons" element={<Boissons />} />
+          {/* <Route path="/lacarte/formules" element={<Formule />} /> */}
         </Routes>
       </BrowserRouter>
     </div>

@@ -18,7 +18,7 @@ const Contact = () => {
             <h3 className={styles.h3Hours}>Horaires</h3>
             <div className={styles.iconPlate}>
               <img
-                src="/ic-plate.png"
+                src="/images/ic-plate.png"
                 alt="icon plate"
                 className={styles.iconPlate}
                 width={30}
@@ -45,6 +45,7 @@ const Contact = () => {
 
           loading="lazy"
           className={styles.map}
+          alt="map"
         ></iframe>
       </div>
     </div>

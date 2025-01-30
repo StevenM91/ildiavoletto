@@ -50,25 +50,13 @@ const Accueil = () => {
         <div className={styles.container}>
           <div className={styles.home}>
             <img
-              src="/font-4-2.jpeg"
+              src="/images/homeimg.jpeg"
               className={styles.imgHome}
               alt="picture home"
             />
-            <div className={styles.overlay}>
-              <motion.h1
-                animate={{ x: 800 }}
-                transition={{ ease: "easeOut", duration: 3 }}
-                className={styles.title}
-              >
-                Il Diavoletto
-              </motion.h1>
-              <motion.h3
-                animate={{ x: 800 }}
-                transition={{ ease: "easeOut", duration: 3 }}
-                className={styles.subtitle}
-              >
-                Diaboliquement Bon
-              </motion.h3>
+            <div className={styles.textTitle}>
+              <h1 className={styles.title}>Il Diavoletto</h1>
+              <h3 className={styles.subtitle}>Diaboliquement Bon</h3>
             </div>
           </div>
         </div>

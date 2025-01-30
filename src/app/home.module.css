@@ -1,20 +1,26 @@
 .container {
   height: 100vh;
+  /* width: 100%; */
   display: flex;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .home {
-  margin: 0 auto;
+  width: 100%;
   display: flex;
+  align-items: center;
+}
+.imgHome {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: 1;
 }
 
-.imgHome {
-  width: 100%;
-  height: 100%;
-  object-fit: fill;
-  z-index: -10;
-  position: static;
+.textTitle {
+  display: flex;
 }
 
 .title {
@@ -22,10 +28,10 @@
   color: white;
   position: relative;
   font-size: 4.5rem;
-  top: 30%;
-  left: -1150px;
   font-family: var(--title);
   text-transform: uppercase;
+  position: absolute;
+  margin-left: 30px;
 }
 
 .subtitle {
@@ -33,9 +39,10 @@
   color: var(--color1);
   position: relative;
   font-family: var(--font1);
-  font-size: 3.8rem;
-  top: 30%;
-  left: -1150px;
+  font-size: 3.6rem;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 70px;
 }
 
 .text {
@@ -44,40 +51,53 @@
   position: relative;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 1120px) {
+  .home {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .title {
+    font-size: 4rem;
+  }
+  .subtitle {
+    font-size: 3rem;
+  }
+
+  .textTitle {
+    margin-top: 100px;
+  }
+}
+
+/* @media screen and (max-width: 680px) {
+  .home {
+    display: block;
+  }
+
   .title,
   .subtitle {
     font-size: 3rem;
-    left: -910px;
-    top: 30%;
+    position: relative;
+    margin: 0 auto;
   }
 
   .imgHome {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    object-fit: cover;
   }
-}
-@media screen and (max-width: 660px) {
-  .title,
-  .subtitle {
-    font-size: 2rem;
-    top: 30%;
-    left: -910px;
-  }
+} */
 
-  .imgHome {
-    height: 100%;
-    width: 100%;
-  }
-}
 @media screen and (max-width: 550px) {
   .title,
   .subtitle {
-    font-size: 1.5rem;
-    left: -910px;
+    font-size: 2rem;
+  }
+
+  .title {
+    transform: translate(50%, -50%);
+  }
+  .subtitle {
+    transform: translate(50%, -50%);
   }
 
   .imgHome {
@@ -85,26 +105,8 @@
     width: 100%;
   }
 }
-@media screen and (max-width: 420px) {
-  .title,
-  .subtitle {
-    font-size: 1.5rem;
-  }
 
-  .imgHome {
-    height: 100%;
-    width: 100%;
-  }
-}
 @media screen and (max-width: 420px) {
-  .title,
-  .subtitle {
-    font-size: 1.5rem;
-  }
-  .imgHome {
-    height: 100%;
-    width: 100%;
-  }
 }
 @media screen and (max-width: 380px) {
   .title,
