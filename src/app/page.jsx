@@ -50,14 +50,10 @@ const Accueil = () => {
         <div className={styles.container}>
           <div className={styles.home}>
             <img
-              src="/images/homeimg.jpeg"
+              src="/images/imgHome2.webp"
               className={styles.imgHome}
               alt="picture home"
             />
-            <div className={styles.textTitle}>
-              <h1 className={styles.title}>Il Diavoletto</h1>
-              <h3 className={styles.subtitle}>Diaboliquement Bon</h3>
-            </div>
           </div>
         </div>
         <section>

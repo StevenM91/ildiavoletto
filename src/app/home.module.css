@@ -1,114 +1,53 @@
 .container {
   height: 100vh;
-  /* width: 100%; */
+  width: 100%;
   display: flex;
-  margin: 0 auto;
+  align-items: center;
+  /* justify-content: center; */
   overflow: hidden;
 }
 
 .home {
   width: 100%;
-  display: flex;
+  height: 100%;
+  /* display: flex;
   align-items: center;
+  justify-content: center; */
 }
 .imgHome {
-  height: 100%;
   width: 100%;
-  object-fit: cover;
-  position: absolute;
-  z-index: 1;
+  height: 100%;
+  /* display: block; */
 }
 
 .textTitle {
   display: flex;
 }
 
-.title {
-  z-index: 10;
-  color: white;
-  position: relative;
-  font-size: 4.5rem;
-  font-family: var(--title);
-  text-transform: uppercase;
-  position: absolute;
-  margin-left: 30px;
-}
-
-.subtitle {
-  z-index: 10;
-  color: var(--color1);
-  position: relative;
-  font-family: var(--font1);
-  font-size: 3.6rem;
-  position: absolute;
-  margin-left: 30px;
-  margin-top: 70px;
-}
-
-.text {
-  z-index: 10;
-  color: white;
-  position: relative;
-}
-
-@media screen and (max-width: 1120px) {
-  .home {
-    width: 100%;
-    display: flex;
-    align-items: flex-start;
-  }
-
-  .title {
-    font-size: 4rem;
-  }
-  .subtitle {
-    font-size: 3rem;
-  }
-
-  .textTitle {
-    margin-top: 100px;
-  }
-}
-
-/* @media screen and (max-width: 680px) {
+/* @media screen and (max-width: 750px) {
   .home {
     display: block;
   }
 
-  .title,
-  .subtitle {
-    font-size: 3rem;
-    position: relative;
-    margin: 0 auto;
-  }
-
   .imgHome {
-    object-fit: cover;
+    height: 1000px;
+    width: 100%;
   }
 } */
 
-@media screen and (max-width: 550px) {
-  .title,
-  .subtitle {
-    font-size: 2rem;
-  }
-
-  .title {
-    transform: translate(50%, -50%);
-  }
-  .subtitle {
-    transform: translate(50%, -50%);
-  }
-
+/* @media screen and (max-width: 550px) {
   .imgHome {
-    height: 100%;
-    width: 100%;
+    display: none;
   }
-}
-
-@media screen and (max-width: 420px) {
-}
-@media screen and (max-width: 380px) {
+  .imgHomeres {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 850px;
+  }
+} */
+/* @media screen and (max-width: 380px) {
   .title,
   .subtitle {
     font-size: 1.5rem;
@@ -117,4 +56,4 @@
     height: 100%;
     width: 100%;
   }
-}
+} */
