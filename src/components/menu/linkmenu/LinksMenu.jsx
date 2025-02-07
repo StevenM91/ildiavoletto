@@ -21,7 +21,7 @@ const LinksMenu = () => {
                 })}
                 className={styles.a}
               >
-                Entrée
+                Entrées
               </NavLink>
             </li>
             <li className={styles.li}>

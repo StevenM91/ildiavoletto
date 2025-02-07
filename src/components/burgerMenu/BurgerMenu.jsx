@@ -21,7 +21,6 @@ const BurgerMenu = () => {
     <div className={styles.burger}>
       <div className={styles.bg}>
         <div className="md:hidden">
-          {/* Bouton du menu avec animation */}
           <motion.button
             onClick={toggleMenu}
             className={styles.menuButton}
@@ -35,8 +34,6 @@ const BurgerMenu = () => {
             </motion.div>
           </motion.button>
         </div>
-
-        {/* Overlay et Menu déroulant */}
         {isOpen && (
           <div className={styles.menuOverlay} onClick={closeMenu}>
             <motion.div
@@ -46,7 +43,6 @@ const BurgerMenu = () => {
               className={styles.menuContainer}
               onClick={(e) => e.stopPropagation()}
             >
-              {/* Bouton de fermeture (croix) animé */}
               <motion.button
                 onClick={closeMenu}
                 className={styles.menuCloseButton}

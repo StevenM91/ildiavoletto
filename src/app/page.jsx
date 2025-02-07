@@ -1,12 +1,6 @@
-import * as motion from "motion/react-client";
-// import Section1 from "@/components/section1/Section1";
 import styles from "./home.module.css";
-// import Contact from "../components/contact/Contact";
-// import LaCarte from "../components/menu/Lacarte.jsx";
 import Head from "next/head";
-import Image from "next/image";
 import dynamic from "next/dynamic";
-
 const Section1 = dynamic(() => import("@/components/section1/Section1"), {
   ssr: false,
 });
@@ -29,7 +23,7 @@ const Accueil = () => {
       name="keywords"
       content="restaurant italien, pâtes fraîches, Ézy-sur-Eure, Eure-et-Loir, cuisine italienne"
     />
-    <meta name="author" content="Il Diavolletto" />
+    <meta name="author" content="MAITRE STEVEN" />
     <meta
       property="og:title"
       content="Il Diavoletto | Restaurant Italien à Ézy-sur-Eure"
@@ -54,6 +48,11 @@ const Accueil = () => {
               className={styles.imgHome}
               alt="picture home"
             />
+
+            <div className={styles.homeRes}>
+              <h1 className={styles.title}>IL DIAVOLETTO</h1>
+              <h2 className={styles.subtitle}>Diaboliquement Bon</h2>
+            </div>
           </div>
         </div>
         <section>
@@ -75,3 +74,5 @@ const Accueil = () => {
 };
 
 export default Accueil;
+
+

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "./section1.module.css";
 
 const Section1 = () => {
@@ -37,7 +36,6 @@ const Section1 = () => {
             />
           </div>
           <h4 className={styles.h4}>Vente à Emporter</h4>
-          {/* <h5 className={styles.h5}>CHEF COOK</h5> */}
         </div>
         <div className={styles.introPic}></div>
       </section>

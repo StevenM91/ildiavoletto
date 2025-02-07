@@ -3,44 +3,7 @@
   color: var(--white);
   max-width: 1050px;
   margin: 0 auto;
-  /* margin-top: 10%; */
 }
-
-/* @media screen and (max-width: 1024px) {
-  .contact {
-    margin-top: 40%;
-  }
-}
-@media screen and (max-width: 680px) {
-  .contact {
-    margin-top: 90%;
-  }
-}
-@media screen and (max-width: 660px) {
-  .contact {
-    margin-top: 140%;
-  }
-}
-@media screen and (max-width: 550px) {
-  .contact {
-    margin-top: 150%;
-  }
-}
-@media screen and (max-width: 420px) {
-  .contact {
-    margin-top: 160%;
-  }
-}
-@media screen and (max-width: 420px) {
-  .contact {
-    margin-top: 180%;
-  }
-}
-@media screen and (max-width: 380px) {
-  .contact {
-    margin-top: 260%;
-  }
-} */
 
 .formContent {
   display: grid;

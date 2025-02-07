@@ -1,12 +1,14 @@
 .footerContent {
-  background: url(/bg-footer.jpg) center/cover;
+  background: black;
   text-align: left;
   padding: 65px 32px;
   color: var(--white);
-  max-width: 1000px;
+  max-width: 1030px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+}
+
+.social {
+  display: flex;
 }
 
 @media screen and (max-width: 750px) {
@@ -20,7 +22,6 @@
 .leftPart {
   padding-right: 30px;
   line-height: 30px;
-  background: #161513;
 }
 
 @media screen and (max-width: 680px) {
@@ -37,6 +38,17 @@
     margin-bottom: 5px;
     margin-top: 15px;
   }
+
+  .social {
+    display: flex;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .h2 {
@@ -50,8 +62,24 @@
 .p {
   font-size: 0.85rem;
   color: var(--white);
+  text-transform: lowercase;
+  font-family: var(--title);
+  font-size: 1rem;
 }
 
 .rightPart {
   display: flex;
+}
+
+.contact {
+  display: flex;
+}
+
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 3px;
+  width: 30px;
+  height: 30px;
 }

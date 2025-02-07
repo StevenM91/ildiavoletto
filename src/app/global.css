@@ -63,6 +63,8 @@ body {
   text-align: center;
   font-family: var(--font3);
   background: var(--black);
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 a {
